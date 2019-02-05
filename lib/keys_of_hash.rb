@@ -1,6 +1,6 @@
 class Hash
   def keys_of(arguments)
-    puts find {|key, value|value==arguments}
+    puts find {|key, value|value==arguments}.keys
   end
 end
 
