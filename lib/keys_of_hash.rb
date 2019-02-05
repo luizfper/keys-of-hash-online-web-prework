@@ -3,7 +3,7 @@ require 'pry'
 class Hash
   def keys_of(arguments)
     arg_array=[]
-    arg_array=arguments.split
+    arg_array=[arguments]
 
     arr=[]
     arg_array.each do |argument|
