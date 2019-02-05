@@ -4,14 +4,10 @@ class Hash
   def keys_of(*arguments)
     arg_array=[]
     arg_array=arguments
-    #binding.pry
     arr=[]
     arg_array.each do |argument|
-      #binding.pry
       arr<<select {|k, v|v==argument}.keys
-      #binding.pry
     end
-    puts arr
     arr.flatten
   end
 end
