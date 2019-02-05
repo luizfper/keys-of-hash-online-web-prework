@@ -1,8 +1,9 @@
 class Hash
   def keys_of(arguments)
     arr=[]
-    #puts find {|key, value|value==arguments}[0]
-    arr<<find {|key, value|value==arguments}[0]
+    arguments.each do |argument|
+      arr<<find {|key, value|value==argument}[0]
+    end
     arr
   end
 end
