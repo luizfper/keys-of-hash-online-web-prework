@@ -6,4 +6,4 @@ end
 
 hashao={}
 hashao={key:"values"}
-hashao.keys_of("fewgwf")
+hashao.keys_of("values")
