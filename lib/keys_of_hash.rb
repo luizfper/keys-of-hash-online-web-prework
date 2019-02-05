@@ -3,5 +3,3 @@ class Hash
     puts arguments
   end
 end
-
-
