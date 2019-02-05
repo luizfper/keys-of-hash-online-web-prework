@@ -5,5 +5,5 @@ class Hash
 end
 
 hashao={}
-hashao={asd:"g"}
+hashao={key:"values"}
 hashao.keys_of("fewgwf")
