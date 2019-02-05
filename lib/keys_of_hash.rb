@@ -5,4 +5,3 @@ class Hash
 end
 
 Hash.keys_of("asdad")
-
