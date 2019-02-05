@@ -3,8 +3,7 @@ class Hash
     arr=[]
     #puts find {|key, value|value==arguments}[0]
     arr<<select {|key, value|value==arguments}[0]
-    puts arr
-
+    puts arr.to_s
   end
 end
 
