@@ -3,7 +3,7 @@ class Hash
     arr=[]
     #puts find {|key, value|value==arguments}[0]
     arr<<find {|key, value|value==arguments}[0]
-    puts
+    puts arr
   end
 end
 
