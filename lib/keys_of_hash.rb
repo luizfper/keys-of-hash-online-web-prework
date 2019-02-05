@@ -12,7 +12,7 @@ class Hash
       #binding.pry
     end
     puts arr
-    arr
+    arr.flatten 
   end
 end
 
