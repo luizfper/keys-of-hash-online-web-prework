@@ -12,6 +12,7 @@ class Hash
       #binding.pry
     end
     puts arr
+    arr
   end
 end
 
