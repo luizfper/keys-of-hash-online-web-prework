@@ -4,4 +4,6 @@ class Hash
   end
 end
 
-Hash.keys_of("asdad")
+hashao={}
+hashao={asd:"fewgwf"}
+keys_of("asdad")
