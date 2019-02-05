@@ -1,5 +1,6 @@
 class Hash
   def keys_of(arguments)
-    arguments.to_a
+    array_args=[]
+    array_args<<arguments
   end
 end
