@@ -8,7 +8,7 @@ class Hash
     arr=[]
     arg_array.each do |argument|
       #binding.pry
-      arr<<select {|k, v|v==argument}
+      arr<<select {|k, v|v==argument}.keys
       #binding.pry
     end
     puts arr
