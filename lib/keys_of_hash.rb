@@ -4,7 +4,7 @@ class Hash
   def keys_of(arguments)
     arg_array=[]
     arg_array=arguments.split
-    
+
     arr=[]
     arg_array.each do |argument|
       binding.pry
