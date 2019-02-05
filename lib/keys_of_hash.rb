@@ -3,3 +3,5 @@ class Hash
     puts arguments
   end
 end
+
+keys_of("asdad")
