@@ -4,4 +4,5 @@ class Hash
   end
 end
 
-keys_of("asdad")
+Hash.keys_of("asdad")
+
