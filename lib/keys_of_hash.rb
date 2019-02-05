@@ -7,5 +7,5 @@ class Hash
 end
 
 hashao={}
-hashao={key:"values"}
-hashao.keys_of("values")
+hashao={"sugar glider"=>"Australia","aye-aye"=> "Madagascar","red-footed tortoise"=>"Panama","kangaroo"=> "Australia","tomato frog"=>"Madagascar","koala"=>"Australia"}
+hashao.keys_of("Panama")
