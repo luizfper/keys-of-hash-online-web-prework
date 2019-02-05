@@ -11,7 +11,7 @@ class Hash
       arr<<find {|k, v|v==argument}[0]
       binding.pry
     end
-    arr
+    puts arr
   end
 end
 
