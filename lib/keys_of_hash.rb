@@ -1,6 +1,6 @@
 class Hash
   def keys_of(arguments)
-    puts Hash.values
+    puts Hash
   end
 end
 
