@@ -3,7 +3,7 @@ class Hash
     arg_array=[]
     arg_array=arguments.split
     arr=[]
-    arguments.each do |argument|
+    arg_array.each do |argument|
       arr<<find {|key, value|value==argument}[0]
     end
     arr
