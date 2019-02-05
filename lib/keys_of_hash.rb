@@ -15,4 +15,4 @@ end
 
 hashao={}
 hashao={"sugar glider"=>"Australia","aye-aye"=> "Madagascar","red-footed tortoise"=>"Panama","kangaroo"=> "Australia","tomato frog"=>"Madagascar","koala"=>"Australia"}
-hashao.keys_of("Panama")
+hashao.keys_of("Madagascar")
