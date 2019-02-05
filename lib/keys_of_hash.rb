@@ -6,4 +6,4 @@ end
 
 hashao={}
 hashao={asd:"fewgwf"}
-keys_of("asdad")
+hashao.keys_of("asdad")
