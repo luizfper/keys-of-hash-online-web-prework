@@ -1,8 +1,10 @@
 class Hash
   def keys_of(arguments)
     arr=[]
-    puts find {|key, value|value==arguments}[0]
+    #puts find {|key, value|value==arguments}[0]
     arr<<select {|key, value|value==arguments}[0]
+    puts arr
+
   end
 end
 
