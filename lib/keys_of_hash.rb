@@ -8,7 +8,7 @@ class Hash
     arr=[]
     arg_array.each do |argument|
       binding.pry
-      arr<<find {|key, value|value==argument}[0]
+      arr<<find {|k, v|value==argument}[0]
       binding.pry
     end
     arr
