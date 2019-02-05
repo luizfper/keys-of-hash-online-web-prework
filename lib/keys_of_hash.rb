@@ -1,5 +1,7 @@
 class Hash
   def keys_of(arguments)
+    arg_array=[]
+    arg_array=arguments.split
     arr=[]
     arguments.each do |argument|
       arr<<find {|key, value|value==argument}[0]
