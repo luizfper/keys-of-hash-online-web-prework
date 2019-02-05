@@ -4,9 +4,10 @@ class Hash
   def keys_of(arguments)
     arg_array=[]
     arg_array=arguments.split
-    binding.pry
+    
     arr=[]
     arg_array.each do |argument|
+      binding.pry
       arr<<find {|key, value|value==argument}[0]
     end
     arr
